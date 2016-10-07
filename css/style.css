@@ -1,0 +1,19 @@
+body  {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/sunny-beach.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+#hud {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    height: 101%;
+    width: 101%;
+    box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.6);
+
+}
